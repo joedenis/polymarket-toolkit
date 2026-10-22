@@ -1,0 +1,10 @@
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.venv/
+.idea/
+data/
+reports/
+private/
+.env
+tests/fixtures/live_activity_page.json

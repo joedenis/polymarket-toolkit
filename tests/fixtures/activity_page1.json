@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "proxy_wallet": "0x8ba1f109551bD432803012645Ac136ddd64DBA72",
+      "timestamp": 1700000000,
+      "condition_id": "0x747dc809fb79e1b05be09c42d6179459a58de2ef3e40f02484a4e1260f741f75",
+      "type": "TRADE",
+      "size": 100,
+      "usdc_size": 40.0,
+      "transaction_hash": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "price": 0.4,
+      "token_id": "107505882767731489358349912513945399560393482969656700824895970500493757150417",
+      "side": "BUY",
+      "title": "Aliens before 2027?",
+      "slug": "s",
+      "event_slug": "e",
+      "outcome": "Yes",
+      "outcome_index": 0
+    },
+    {
+      "proxy_wallet": "0x8ba1f109551bD432803012645Ac136ddd64DBA72",
+      "timestamp": 1700000100,
+      "condition_id": "0x747dc809fb79e1b05be09c42d6179459a58de2ef3e40f02484a4e1260f741f75",
+      "type": "TRADE",
+      "size": 50,
+      "usdc_size": 23.0,
+      "transaction_hash": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "price": 0.46,
+      "token_id": "107505882767731489358349912513945399560393482969656700824895970500493757150417",
+      "side": "BUY",
+      "title": "Aliens before 2027?",
+      "slug": "s",
+      "event_slug": "e",
+      "outcome": "Yes",
+      "outcome_index": 0
+    }
+  ],
+  "pagination": {
+    "limit": 2,
+    "offset": 0,
+    "has_more": true,
+    "next_cursor": "CURSOR_2"
+  }
+}

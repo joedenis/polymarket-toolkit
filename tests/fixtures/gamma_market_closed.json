@@ -1,0 +1,14 @@
+{
+  "id": "500100",
+  "slug": "fed-hold-september-2026",
+  "question": "Fed holds in September 2026?",
+  "conditionId": "0xdef",
+  "version": "v1",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "outcomePrices": "[\"0\", \"1\"]",
+  "clobTokenIds": "[\"111\", \"222\"]",
+  "active": true,
+  "closed": true,
+  "negRisk": false,
+  "orderPriceMinTickSize": 0.01
+}

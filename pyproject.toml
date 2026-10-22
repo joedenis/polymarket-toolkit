@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pmkit"
+version = "0.1.0"
+description = "Polymarket market-data recorder, local L2 order book, and personal trade analytics"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Joe Denis" }]
+dependencies = [
+    "httpx>=0.27",
+    "websockets>=13",
+    "pandas>=2.2",
+    "pyarrow>=16",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-asyncio>=0.23"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

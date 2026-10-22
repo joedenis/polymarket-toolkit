@@ -1,0 +1,19 @@
+{
+  "id": "812001",
+  "slug": "fed-cut-december-2026",
+  "question": "Will the Fed cut rates in December 2026?",
+  "conditionId": "0xabc",
+  "version": "v2",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "outcomePrices": "[\"0.41\", \"0.59\"]",
+  "clobTokenIds": null,
+  "positionIds": [
+    "651150819117105875331414918119047680898421632356043490229292782433651916800",
+    "651150819117105875331414918119047680898421632356043490229292782433651916801"
+  ],
+  "active": true,
+  "closed": false,
+  "negRisk": true,
+  "orderPriceMinTickSize": 0.001,
+  "endDateIso": "2026-12-10T00:00:00Z"
+}
